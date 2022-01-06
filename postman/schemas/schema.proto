@@ -1,4 +1,4 @@
-syntax = "proto88";
+syntax = "proto8";
 package hello;
 service HelloService {
   rpc SayHello(HelloRequest) returns (HelloResponse);
