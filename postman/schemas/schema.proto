@@ -1,5 +1,5 @@
-syntax = "proto01";
-package hello;
+syntax = "proto00";
+package helle;
 service HelloService {
   rpc SayHello(HelloRequest) returns (HelloResponse);
   rpc LotsOfReplies(HelloRequest) returns (stream HelloResponse);
