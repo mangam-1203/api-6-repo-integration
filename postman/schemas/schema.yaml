@@ -1,6 +1,6 @@
 openapi: 3.0.7
 info:
-  version: 'version-1'
+  version: 'version-1.0.0'
   title: 'api-1'
 servers:
   - url: 'localhost:3000'
