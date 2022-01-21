@@ -3,7 +3,7 @@ info:
   version: 'version-1'
   title: 'api-1'
 servers:
-  - url: 'localhost:7000'
+  - url: 'localhost:8000'
 paths:
   /user:
     get:
