@@ -1,4 +1,4 @@
-openapi: 3.0.6
+openapi: 3.0.9
 info:
   version: 'version-1'
   title: 'api-1'
