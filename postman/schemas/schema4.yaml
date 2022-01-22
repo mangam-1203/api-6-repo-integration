@@ -1,9 +1,9 @@
-openapi: 3.0.8
+openapi: 3.0.9
 info:
   version: 'version-1'
   title: 'api-1'
 servers:
-  - url: 'localhost:9017'
+  - url: 'localhost:3001'
 paths:
   /user:
     get:
