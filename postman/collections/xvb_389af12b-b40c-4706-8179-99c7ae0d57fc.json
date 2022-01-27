@@ -1,0 +1,43 @@
+{
+    "info": {
+        "_postman_id": "927a83d7-dac1-4bc6-82dc-970b4e8a68a7",
+        "name": "xvb",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "fgcvfgvj",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "638e2b0c-f8b1-4847-a7da-f2d53ae5754e",
+                        "type": "text/javascript",
+                        "exec": [
+                            "pm.test('Some test name', function () {",
+                            "\tpm.response.to.have.status(200);",
+                            "\tpm.expect(pm.response.responseTime).to.be.below(400);",
+                            "})"
+                        ]
+                    }
+                }
+            ],
+            "id": "405e64aa-8f83-4e90-80da-993d85f7353b",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": ""
+                },
+                "url": {
+                    "raw": "fgcvfgvj",
+                    "host": [
+                        "fgcvfgvj"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
