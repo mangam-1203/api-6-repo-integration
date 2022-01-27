@@ -3,7 +3,7 @@ info:
   version: 'draft'
   title: 'api-2'
 servers:
-  - url: 'localhost:3009'
+  - url: 'localhost:3000'
 paths:
   /user:
     get:
