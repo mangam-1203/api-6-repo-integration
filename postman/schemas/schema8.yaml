@@ -1,11 +1,4 @@
-openapi: 3.0.9
-info:
-  version: 'version-5'
-  title: 'api-1'
-servers:
-  - url: 'localhost:3001'
-paths:
-  /user:
+openapi: 
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       operationId: listUser
