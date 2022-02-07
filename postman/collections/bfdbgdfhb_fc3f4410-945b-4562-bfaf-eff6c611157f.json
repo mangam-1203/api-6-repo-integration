@@ -1,0 +1,43 @@
+{
+    "info": {
+        "_postman_id": "bcb92d67-efca-477f-864a-db79e6aed57d",
+        "name": "bfdbgdfhb",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "fbvdzb",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "fd0a1be3-d7b6-45b7-b07b-e67b57fe63b6",
+                        "type": "text/javascript",
+                        "exec": [
+                            "pm.test('Some test name', function () {",
+                            "\tpm.response.to.have.status(200);",
+                            "\tpm.expect(pm.response.responseTime).to.be.below(400);",
+                            "})"
+                        ]
+                    }
+                }
+            ],
+            "id": "e06461fb-f6f9-4ebc-b41e-78a4784d6ed4",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": ""
+                },
+                "url": {
+                    "raw": "fbvdzb",
+                    "host": [
+                        "fbvdzb"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
