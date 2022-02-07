@@ -1,0 +1,43 @@
+{
+    "info": {
+        "_postman_id": "f1ecb3c8-5f2c-4a18-a06a-9d22027a6901",
+        "name": "r4f",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "tgtrg",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "049652fa-be08-4a0e-a9ba-70677b810282",
+                        "type": "text/javascript",
+                        "exec": [
+                            "pm.test('Some test name', function () {",
+                            "\tpm.response.to.have.status(200);",
+                            "\tpm.expect(pm.response.responseTime).to.be.below(400);",
+                            "})"
+                        ]
+                    }
+                }
+            ],
+            "id": "c3d1f5e7-3cde-4546-adfc-cd6774b2ad0b",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": ""
+                },
+                "url": {
+                    "raw": "tgtrg",
+                    "host": [
+                        "tgtrg"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
