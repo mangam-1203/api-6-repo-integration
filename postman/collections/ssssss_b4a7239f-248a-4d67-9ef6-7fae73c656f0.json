@@ -146,9 +146,31 @@
             }
         ]
     },
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "id": "77896e2c-23ff-4d28-a14b-cadd6a90733e",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "id": "25819716-520f-4736-b82a-c45f939af4f2",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        }
+    ],
     "variable": [
         {
-            "id": "3436a0a3-4842-4704-a164-a5195cd66b91",
+            "id": "58198921-f288-435c-a74f-439c7cbd12a5",
             "key": "baseUrl",
             "value": "localhost:3000",
             "type": "string"
